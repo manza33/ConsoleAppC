@@ -9,6 +9,7 @@ namespace ConsoleApp1
     public abstract class Animal
     {
         protected String name;
+        //test
 
         public Animal(String name)
         {
@@ -140,6 +141,7 @@ namespace ConsoleApp1
 
         // ICI, je ne déclare ni sur-charge la méthode "crier()", 
         // lors d'un appel "hyene.crier()", c'est la méthode dans "Canin.crier()" qui sera appelée
+
 
     }
 
